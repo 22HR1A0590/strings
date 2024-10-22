@@ -128,10 +128,8 @@ Ans:
 input_string = input("Enter a string: ")
 new_string = ""
 if len(input_string) >= 4:
-    # Form the new string using string slicing
     new_string = input_string[:2] + input_string[-2:]
 else:
-    # If the string is too short, return the original string
     new_string = input_string
 print(new_string)
 
